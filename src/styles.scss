@@ -2,11 +2,13 @@
 @import 'app/saffron/saffron.scss';
 
 body {
-    background-color: darkorange;
+    background: linear-gradient(to top, darkorange, papayawhip);
+    min-height: 100vh;
 }
 
 .btn {
     color: ivory;
+    font-size: 2rem;
     background-color: darkturquoise;
     border-radius: 2rem;
         &:hover {
