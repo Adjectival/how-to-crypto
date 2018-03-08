@@ -1,14 +1,14 @@
-# Angular Boilerplate :flashlight:
+# How-To-Crypto
 
-You can use FontAwesome 5, Bootstrap 4, Bourbon & Saffron right off the bat.
-
-Saffron animations build out all major polyfills on `ng serve`.
+Entry-level guides on how to Buy, Trade, Mine cryptocurrencies.
+Knowledge benefits everyone.
+Affiliate links benefit author.
 
 ## How To Use
-`cd ng-boiler && npm i && ng serve` will set up the modules and libraries needed, and spin up a local dev server at [localhost:4200](localhost:4200).
+[View project here](https://how-to-crypto.herokuapp.com/). Email me with questions or constructive feedback.
 
-### Extra 3rd party library added!
-MDBootstrap was just now added. I have not tested it thoroughly, but it seems promising and may indeed install correctly with the above How To directions. Good luck. If it doens't work, consider modifying the icky config files manually again because [this is all I did](https://mdbootstrap.com/angular/5min-quickstart/).
+## If you want a version of this to mess around with...
+[Check out my Angular Boilerplate](https://github.com/Adjectival/ng-boiler), which is what I used to Bootstrap this together-- pun intended.
 
 ## License = MIT
 :computer::recycle:
