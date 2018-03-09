@@ -8,14 +8,14 @@ import { Component } from '@angular/core';
 
 <!--Body-->
 
-<div class="col-md-4 mt-5 text mx-auto">
+<div class="col-md-4 mt-5 text">
 
     <!--Card-->
     <div class="card card-cascade narrower">
 
         <!--Card image-->
         <div class="view overlay hm-white-slight waves-light" mdbRippleRadius>
-            <img src="../assets/me_on_kitchen.jpg" class="img-fluid" alt="">
+            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg" class="img-fluid" alt="">
             <a>
                 <div class="mask"></div>
             </a>
@@ -24,17 +24,13 @@ import { Component } from '@angular/core';
 
         <!--Card content-->
         <div class="card-body">
-            <h5 class="pink-text">Crypto</h5>
+            <h5 class="pink-text"><i class="fa fa-cutlery"></i> Culinary</h5>
             <!--Title-->
-            <h4 class="card-title">Buy Crypto</h4>
+            <h4 class="card-title">Cheat day inspirations</h4>
             <!--Text-->
-            <p class="card-text">
-                If price lower than usual, today is a good day to buy crypto!!
-            </p>
-            <p>
-                If price within 15% of all-time high, SELL SELL SELL
-            </p>
-            <a class="btn btn-unique waves-light" mdbRippleRadius>BUY</a>
+            <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+                aliquid ex ea commodi.</p>
+            <a class="btn btn-unique waves-light" mdbRippleRadius>Button</a>
         </div>
         <!--/.Card content-->
 
