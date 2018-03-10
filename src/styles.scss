@@ -9,12 +9,25 @@ body {
 .btn {
     color: ivory;
     font-size: 2rem;
-    background-color: darkturquoise;
+    background-color: deepskyblue;
     border-radius: 2rem;
         &:hover {
             @include pulsate();
         }
-       &:active {
+        &:active {
            @include bounce();
-       }
+        }
+}
+
+.nav-item {
+    background-color: deepskyblue;
+    &:hover {
+        @include pulsate();
+    }
+    &:active {
+       @include bounce();
+    }
+}
+#yesplz {
+    background-color: #880e4f;
 }
