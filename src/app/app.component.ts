@@ -7,21 +7,26 @@ import { Component } from '@angular/core';
 
   <ul class="nav nav-pills nav-justified">
     <li class="nav-item">
-      <a class="nav-link" href="#!">
+      <a class="nav-link" href="https://colors-crypto.firebaseapp.com">
+            Prices
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="buy">
             Buy
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="#!">Trade</a>
+      <a class="nav-link active" routerLink="trade">Trade</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#!">Mine</a>
+      <a class="nav-link" routerLink="mine">Mine</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="mailto:alexd.jacks@gmail.com">Email Me!</a>
     </li>
   </ul>
-
+<router-outlet></router-outlet>
 
 
 <!--Body-->
@@ -33,7 +38,7 @@ import { Component } from '@angular/core';
     <!--First slide-->
     <mdb-slide>
         <div class="view hm-black-strong">
-            <img class="d-block w-75 mx-auto" src="../assets/trade0.png" alt="First slide">
+            <img class="d-block w-100 mx-auto" src="../assets/trade0.png" alt="First slide">
             <div class="mask waves-light" mdbRippleRadius></div>
         </div>
         <div class="carousel-caption">
@@ -69,8 +74,8 @@ import { Component } from '@angular/core';
     <!--/Third slide-->
     <!--Fourth slide-->
     <mdb-slide>
-        <div class="view hm-black-slight">
-            <img class="d-block w-75 mx-auto" src="../assets/trade3.png" alt="Fourth slide">
+        <div class="view hm-black-strong">
+            <img class="d-block w-100 mx-auto" src="../assets/trade3.png" alt="Fourth slide">
             <div class="mask waves-light" mdbRippleRadius></div>
         </div>
         <div class="carousel-caption">
