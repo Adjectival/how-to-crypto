@@ -12,6 +12,7 @@ body {
     background-color: deepskyblue;
         &:hover {
             @include pulsate();
+            background-color: #880e4f;
         }
         &:active {
            @include bounce();
@@ -21,12 +22,6 @@ body {
 .nav-item {
     background-color: deepskyblue;
     &:hover {
-        @include pulsate();
+        background-color: ivory ;
     }
-    &:active {
-       @include bounce();
-    }
-}
-#yesplz {
-    background-color: #880e4f;
 }
