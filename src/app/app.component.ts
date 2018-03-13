@@ -5,8 +5,36 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
   template: `
     <!--Body-->
-    <app-home>
-    </app-home>
+
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+          <a class="nav-link" routerLink="home">
+              What?
+          </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="buy">
+              Buy
+          </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="trade">
+              Trade
+          </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="mine">
+              Mine
+          </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="https://colors-crypto.firebaseapp.com">
+              <i class="fas fa-th-large"></i>
+              Prices
+          </a>
+      </li>
+    </ul>
+
     <router-outlet>
     </router-outlet>
     <!--/Body-->
