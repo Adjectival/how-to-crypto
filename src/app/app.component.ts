@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
       <li class="nav-item">
           <a class="nav-link" routerLink="buy">
             <i class="far fa-money-bill-alt"></i>
-            Buy
+             Buy
           </a>
       </li>
       <li class="nav-item">
