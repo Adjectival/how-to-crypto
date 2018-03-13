@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <!--Body-->
 
-    <ul class="nav nav-pills nav-justified">
+    <ul class="nav nav-pills nav-justified fixed-top">
       <li class="nav-item">
           <a class="nav-link" routerLink="home">
           <i class="far fa-question-circle"></i>
