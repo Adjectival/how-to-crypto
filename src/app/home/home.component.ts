@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <div class="centred m-5 card p-4">
       <h1>How To Crypto</h1>
-      <h2>A simple guide to start out in a complex new money system</h2>
+      <h2>'A simple guide to start out in a complex new money system.'</h2>
       <h3>Questions? Use the navigation bar up top.</h3>
       <p>
       Extensive questions?<br/>

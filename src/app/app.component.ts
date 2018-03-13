@@ -9,28 +9,32 @@ import { Component } from '@angular/core';
     <ul class="nav nav-pills nav-justified">
       <li class="nav-item">
           <a class="nav-link" routerLink="home">
-              What?
+          <i class="far fa-question-circle"></i>
+            What?
           </a>
       </li>
       <li class="nav-item">
           <a class="nav-link" routerLink="buy">
-              Buy
+            <i class="far fa-money-bill-alt"></i>
+            Buy
           </a>
       </li>
       <li class="nav-item">
           <a class="nav-link" routerLink="trade">
-              Trade
+            <i class="fas fa-recycle"></i>
+            Trade
           </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="mine">
-              Mine
+            <i class="fab fa-monero"></i>
+            Mine
           </a>
       </li>
       <li class="nav-item">
           <a class="nav-link" href="https://colors-crypto.firebaseapp.com">
-              <i class="fas fa-th-large"></i>
-              Prices
+            <i class="fas fa-th-large"></i>
+            Prices
           </a>
       </li>
     </ul>
