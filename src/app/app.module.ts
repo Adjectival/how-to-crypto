@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BuyComponent } from './buy/buy.component';
 import { MineComponent } from './mine/mine.component';
 import { TradeComponent } from './trade/trade.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
     { path: '', component: AppComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
     BuyComponent,
     MineComponent,
     TradeComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
