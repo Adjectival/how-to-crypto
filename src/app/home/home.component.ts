@@ -24,8 +24,12 @@ import { Component, OnInit } from '@angular/core';
             Email the author.
         </a>
         <br/>
-        FYI, this guide is for educational purposes, and must not be confused with professional, authoritative investment advice. <i class="callout">The author accepts no responsibility whatsoever</i> for any profits, losses, excitement, adventure, or similar learning experiences or personal enrichments that may ensue based upon any <i class="callout">suggestions</i> offered in this guide. Your choices are your own, I can only offer scraps of knowledge that will allow you to unlock opportunites.
-      </p>
+        FYI, this guide is for educational purposes, and must not be confused with professional, authoritative investment advice. <i class="callout">The author accepts no responsibility whatsoever</i> for any profits, losses, excitement, adventure, or similar learning experiences or personal enrichments that may ensue based upon any <i class="callout">suggestions</i> in this guide.
+        </p>
+
+        <h6>
+            Your choices are your own, I can only offer scraps of knowledge that will allow you to unlock opportunites. I hope you find these scraps useful.
+        </h6>
   </div>
   `
 })
