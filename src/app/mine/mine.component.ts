@@ -160,14 +160,14 @@ import { Component, OnInit } from '@angular/core';
                   <h4 class="card-title">Dashboard for all your miners</h4>
                   <!--Text-->
                   <p class="card-text">
-                      Nice! So now just look at <a href="minergate.com/internal" target="_blank">
+                      Nice! So now just look at <a href="https://minergate.com/internal" target="_blank">
                       minergate.com/internal</a> to see your progress.
                   </p>
                   <p class="card-text">
                       The more machines you have mining, the faster your results!
                   </p>
                   <p class="callout">
-                      Bonus Tip: YOU can give your friends your own referral code, just like I linked mine on this guide! Choose the 'Affiliate program' link up top and share the love of decentralized money systems!
+                      Bonus Tip: YOU can give your friends your own referral code, just like I linked mine on this guide! Choose the 'Affiliate program' link on top of Minergate and share the love of decentralized money systems!
                   </p>
               </div>
               <!--/.Card content-->
