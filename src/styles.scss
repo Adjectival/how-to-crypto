@@ -4,6 +4,7 @@
 body {
     background: linear-gradient(to top, darkorange, papayawhip);
     min-height: 100vh;
+    padding-top: 80px;
 }
 
 .btn {
@@ -32,7 +33,47 @@ body {
     font-style: italic;
 }
 
+.heavy_em {
+    color: red;
+}
+
 .centred {
     text-align: center;
     background-color: ivory;
+}
+
+// slide text, all Paths
+
+.carousel-caption > * {
+    padding-bottom: 10px;
+}
+
+// callout text
+h3 > a { color: deepskyblue; }
+h5 > a { color: deepskyblue; }
+
+// caption text
+mdb-slide > div > p { color: #ffdb00; }
+
+// responsive sizing for smartphone
+@media screen and (max-width: 425px) and (min-width: 1px) {
+    mdb-slide > div > p {
+        font-size: 0.7rem;
+    }
+    h5 {
+        font-size: 0.85rem;
+    }
+    // centers slideshow vertically
+    .carousel {
+        padding-top: 25vh;
+    }
+}
+// responsive sizing for phablets and better
+@media screen and (max-width: 4096px) and (min-width: 426px) {
+    mdb-slide > div > p {
+        font-size: 1rem;
+    }
+    h5 {
+        font-size: 1.3rem;
+    }
 }
