@@ -1,6 +1,6 @@
 # How-To-Crypto
 
-Entry-level guides on how to Buy, Trade, Mine cryptocurrencies.
+Entry-level guides on how to Buy, Trade, and Mine cryptocurrencies.
 
 Knowledge benefits everyone.
 
